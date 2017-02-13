@@ -1,5 +1,8 @@
 package br.com.dougcunha.webstore.casadocodigo.models;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Produto {
 	private String titulo;
 	private String descricao;
